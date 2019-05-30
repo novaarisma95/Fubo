@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5125CE63229A9672004BD892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5125CE61229A9672004BD892 /* Assets.xcassets */; };
+		5125CE68229AEFD9004BD892 /* smile.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5125CE6A229AEFD9004BD892 /* smile.sks */; };
+		5125CE6E229AF8F3004BD892 /* gameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5125CE6D229AF8F3004BD892 /* gameScene.swift */; };
+		5125CE72229B4DAB004BD892 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5125CE71229B4DAB004BD892 /* AVFoundation.framework */; };
+		5125CE75229B50DF004BD892 /* inflat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5125CE74229B50DF004BD892 /* inflat.mp3 */; };
+		5125CE77229B515B004BD892 /* inflate2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5125CE76229B515B004BD892 /* inflate2.mp3 */; };
+		5125CE7B229B57D6004BD892 /* meletus (mp3cut.net).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5125CE7A229B57D6004BD892 /* meletus (mp3cut.net).mp3 */; };
+		518063BF229BA0F0001F840A /* consta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518063BE229BA0F0001F840A /* consta.swift */; };
+		5186C78C2291493A0072C169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5186C78B2291493A0072C169 /* AppDelegate.swift */; };
+		5186C78E2291493A0072C169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5186C78D2291493A0072C169 /* ViewController.swift */; };
+		5186C7912291493A0072C169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5186C78F2291493A0072C169 /* Main.storyboard */; };
+		5186C7932291493A0072C169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5186C7922291493A0072C169 /* Assets.xcassets */; };
+		5186C7962291493A0072C169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5186C7942291493A0072C169 /* LaunchScreen.storyboard */; };
+		5186C7A2229295E60072C169 /* circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5186C7A1229295E60072C169 /* circle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5125CE61229A9672004BD892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5125CE6D229AF8F3004BD892 /* gameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameScene.swift; sourceTree = "<group>"; };
+		5125CE6F229B3EA4004BD892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Base; path = Base.lproj/smile.sks; sourceTree = "<group>"; };
+		5125CE71229B4DAB004BD892 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5125CE74229B50DF004BD892 /* inflat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = inflat.mp3; path = ../../../../soundballon/inflat.mp3; sourceTree = "<group>"; };
+		5125CE76229B515B004BD892 /* inflate2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = inflate2.mp3; path = ../../../../soundballon/inflate2.mp3; sourceTree = "<group>"; };
+		5125CE7A229B57D6004BD892 /* meletus (mp3cut.net).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "meletus (mp3cut.net).mp3"; path = "../../../../soundballon/meletus (mp3cut.net).mp3"; sourceTree = "<group>"; };
+		5125CE7C229B5FAF004BD892 /* Home.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Home.m4a; path = ../../../../soundballon/Home.m4a; sourceTree = "<group>"; };
+		518063BE229BA0F0001F840A /* consta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consta.swift; sourceTree = "<group>"; };
+		5186C7882291493A0072C169 /* ballonFunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ballonFunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5186C78B2291493A0072C169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5186C78D2291493A0072C169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5186C7902291493A0072C169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5186C7922291493A0072C169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5186C7952291493A0072C169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5186C7972291493A0072C169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5186C7A1229295E60072C169 /* circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5186C7852291493A0072C169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5125CE72229B4DAB004BD892 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5125CE70229B4DAB004BD892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5125CE71229B4DAB004BD892 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5125CE73229B50C2004BD892 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				5125CE7C229B5FAF004BD892 /* Home.m4a */,
+				5125CE7A229B57D6004BD892 /* meletus (mp3cut.net).mp3 */,
+				5125CE76229B515B004BD892 /* inflate2.mp3 */,
+				5125CE74229B50DF004BD892 /* inflat.mp3 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		5186C77F2291493A0072C169 = {
+			isa = PBXGroup;
+			children = (
+				5125CE61229A9672004BD892 /* Assets.xcassets */,
+				5186C78A2291493A0072C169 /* ballonFunny */,
+				5186C7892291493A0072C169 /* Products */,
+				5125CE70229B4DAB004BD892 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5186C7892291493A0072C169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5186C7882291493A0072C169 /* ballonFunny.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5186C78A2291493A0072C169 /* ballonFunny */ = {
+			isa = PBXGroup;
+			children = (
+				5186C78B2291493A0072C169 /* AppDelegate.swift */,
+				5186C78D2291493A0072C169 /* ViewController.swift */,
+				5125CE6D229AF8F3004BD892 /* gameScene.swift */,
+				518063BE229BA0F0001F840A /* consta.swift */,
+				5186C78F2291493A0072C169 /* Main.storyboard */,
+				5186C7A1229295E60072C169 /* circle.swift */,
+				5186C7922291493A0072C169 /* Assets.xcassets */,
+				5186C7942291493A0072C169 /* LaunchScreen.storyboard */,
+				5186C7972291493A0072C169 /* Info.plist */,
+				5125CE6A229AEFD9004BD892 /* smile.sks */,
+				5125CE73229B50C2004BD892 /* sound */,
+			);
+			path = ballonFunny;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5186C7872291493A0072C169 /* ballonFunny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5186C79A2291493A0072C169 /* Build configuration list for PBXNativeTarget "ballonFunny" */;
+			buildPhases = (
+				5186C7842291493A0072C169 /* Sources */,
+				5186C7852291493A0072C169 /* Frameworks */,
+				5186C7862291493A0072C169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ballonFunny;
+			productName = ballonFunny;
+			productReference = 5186C7882291493A0072C169 /* ballonFunny.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5186C7802291493A0072C169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nova Arisma";
+				TargetAttributes = {
+					5186C7872291493A0072C169 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5186C7832291493A0072C169 /* Build configuration list for PBXProject "ballonFunny" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5186C77F2291493A0072C169;
+			productRefGroup = 5186C7892291493A0072C169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5186C7872291493A0072C169 /* ballonFunny */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5186C7862291493A0072C169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5125CE75229B50DF004BD892 /* inflat.mp3 in Resources */,
+				5186C7962291493A0072C169 /* LaunchScreen.storyboard in Resources */,
+				5186C7932291493A0072C169 /* Assets.xcassets in Resources */,
+				5186C7912291493A0072C169 /* Main.storyboard in Resources */,
+				5125CE68229AEFD9004BD892 /* smile.sks in Resources */,
+				5125CE77229B515B004BD892 /* inflate2.mp3 in Resources */,
+				5125CE63229A9672004BD892 /* Assets.xcassets in Resources */,
+				5125CE7B229B57D6004BD892 /* meletus (mp3cut.net).mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5186C7842291493A0072C169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5186C7A2229295E60072C169 /* circle.swift in Sources */,
+				5186C78E2291493A0072C169 /* ViewController.swift in Sources */,
+				518063BF229BA0F0001F840A /* consta.swift in Sources */,
+				5125CE6E229AF8F3004BD892 /* gameScene.swift in Sources */,
+				5186C78C2291493A0072C169 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5125CE6A229AEFD9004BD892 /* smile.sks */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5125CE6F229B3EA4004BD892 /* Base */,
+			);
+			name = smile.sks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5186C78F2291493A0072C169 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5186C7902291493A0072C169 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5186C7942291493A0072C169 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5186C7952291493A0072C169 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5186C7982291493A0072C169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5186C7992291493A0072C169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5186C79B2291493A0072C169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6FVCC3X3F;
+				INFOPLIST_FILE = ballonFunny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tester.ballonFunny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5186C79C2291493A0072C169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6FVCC3X3F;
+				INFOPLIST_FILE = ballonFunny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tester.ballonFunny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5186C7832291493A0072C169 /* Build configuration list for PBXProject "ballonFunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5186C7982291493A0072C169 /* Debug */,
+				5186C7992291493A0072C169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5186C79A2291493A0072C169 /* Build configuration list for PBXNativeTarget "ballonFunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5186C79B2291493A0072C169 /* Debug */,
+				5186C79C2291493A0072C169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5186C7802291493A0072C169 /* Project object */;
+}
